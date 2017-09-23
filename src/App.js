@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import SearchBar from './containers/searchBar';
+import WeatherList from './containers/weatherList';
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
           <h2>Weather App</h2>
         </div>
         <SearchBar />
+        <WeatherList />
       </div>
     );
   }
