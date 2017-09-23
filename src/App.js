@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import SearchBar from './containers/searchBar';
 
 class App extends Component {
   render() {
@@ -10,9 +11,7 @@ class App extends Component {
           <img src='http://www.freepngimg.com/download/sun/3-2-sun-png-clipart.png' className="App-logo" alt="logo" />
           <h2>Weather App</h2>
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <SearchBar />
       </div>
     );
   }
